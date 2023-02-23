@@ -5,4 +5,4 @@
 2. `npm install`
 2. `npx ts-node --esm test.ts`
 
-Tested w Node `v16.13.0`
+Tested with Node `v16.13.0`
