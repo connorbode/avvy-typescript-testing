@@ -2,7 +2,6 @@ import AVVY from '@avvy/client'
 import { ethers } from 'ethers'
 
 const main = async () => {
-  // const provider = new ethers.providers.JsonRpcProvider('https://api.avax.network/ext/bc/C/rpc')
   const provider = new ethers.JsonRpcProvider('https://api.avax.network/ext/bc/C/rpc')
   const avvy = AVVY(provider, {})
   const names = await avvy.batch([
